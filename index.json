@@ -1,0 +1,36 @@
+[
+{
+	"uri": "//localhost:1313/",
+	"title": "Implementing CI/CD using Jenkins and Argo CD",
+	"tags": [],
+	"description": "",
+	"content": "Implementing CI/CD using Jenkins and Argo CD Overview In this lab, you will learn the basic concepts and practice setting up Jenkins and Argo CD to automate the build and test stages of the application, and use Argo CD to automatically deploy the application to the desired environment, improving the speed and reliability of the software delivery process, while ensuring that all changes are tracked and audited in Git.\nContent Introduction to CI/CD, Jenkins and Argo CD Install Jenkins Install Argo CD Resource Cleanup "
+},
+{
+	"uri": "//localhost:1313/1-introduce/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction to CI/CD, Jenkins and ArgoCD CI/CD stands for Continuous Integration/Continuous Delivery or Continuous Deployment. This is a software development approach aimed at automating the integration, testing, delivery, and deployment processes of applications.\nCI/CD continuously tests new code commits. This helps to prevent errors in the system before the new code is updated on the server. Regular integration and testing help identify and fix errors early, avoiding major problems in later stages. CI/CD automates the development and deployment processes, helping teams accelerate the release of new products.\nPopular tools that support CI/CD include Jenkins, GitLab CI, Travis CI, CircleCI, and ArgoCD for Kubernetes. Typically, what is used the most is:\nJenkins: an open-source tool that automates software development tasks such as build, test, and deploy. ArgoCD is a continuous orchestration tool for Kubernetes, helping to automate the deployment of applications in microservices architecture and manage multiple Kubernetes environments consistently. This approach not only improves team performance but also enables your product to reach users more quickly and with higher quality. In the cloud computing environment, developers often use Docker to package and Kubernetes to orchestrate.\nContents The CI/CD operations process Jenkins ArgoCD In the following sections, we will delve into the fundamental concepts of CI/CD, Jenkins and ArgoCD.\n"
+},
+{
+	"uri": "//localhost:1313/2-installjenkins/",
+	"title": "Install Jenkins",
+	"tags": [],
+	"description": "",
+	"content": "Install Jenkins In this step, we will install Jenkins and integrate Gitlab with Jenkins\nContent Setup EC2 as Jenkins Server SSH into EC2 to install Jenkin Setup connection between Jenkins and Gitlab "
+},
+{
+	"uri": "//localhost:1313/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "//localhost:1313/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
